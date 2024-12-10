@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suvani Banset | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fdf6e3;
+      color: #333333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: #013220;
+      padding: 20px 0;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      color: #d4af37;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px;
+      transition: color 0.3s ease, border-bottom 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #fdf6e3;
+      border-bottom: 2px solid #d4af37;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      background: #fdf6e3;
+      margin-bottom: 40px;
+    }
+
+    .section:nth-child(odd) {
+      background: #ffffff;
+    }
+
+    .section h2 {
+      color: #013220;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .project-list {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .project {
+      background: #fff;
+      border: 1px solid #d4af37;
+      border-radius: 8px;
+      padding: 20px;
+      width: 300px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .project h3 {
+      color: #013220;
+      margin-bottom: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+
+    input, textarea {
+      padding: 15px;
+      width: 90%;
+      max-width: 400px;
+      border: 2px solid #d4af37;
+      border-radius: 8px;
+      font-size: 16px;
+      background: #fdf6e3;
+      color: #013220;
+    }
+
+    button {
+      padding: 12px 20px;
+      background: #d4af37;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #013220;
+    }
+
+    footer {
+      background: #013220;
+      color: #fdf6e3;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .project:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      border-color: #013220;
+    }
+
+    .certifications {
+      color: #5a3d1a;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .certifications a {
+      color: #5a3d1a;
+      text-decoration: none;
+    }
+
+    .certifications a:visited {
+      color: grey;
+    }
+
+    .certifications a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Suvani Banset, cybersecurity & tech enthusiast. Looking to connect with like-minded individuals <3</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <li class="github-link">
+          <a href="https://github.com/suvani-ctrl" target="_blank">My Github</a>
+        </li>
+        <div class="project-list">
+          <div class="project">
+            <h3>TCP Client-Server</h3>
+            <p>A project showcasing socket programming with network byte conversion examples.</p>
+          </div>
+          <div class="project">
+            <h3>Minimalistic C Projects</h3>
+            <p>Simple C programs, including a dice game and cryptography tools.</p>
+          </div>
+          <div class="project">
+            <h3>My First Basic Website</h3>
+            <p>A full-stack web application featuring authentication, a shopping cart, and database integration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="certifications">
+          <p><a href="https://certificates.simplicdn.net/share/thumb_7055262_1722521505.png" target="_blank">C Programming - Simplilearn (Aug 2024)</a></p>
+          <p><a href="https://www.freecodecamp.org/certification/Suvani/javascript-algorithms-and-data-structures?trk=public_profile_see-credential" target="_blank">Legacy JavaScript Algorithms and Data Structures - freeCodeCamp (May 2024)</a></p>
+          <p><a href="https://app.cybrary.it/courses/api/certificate/CC-30eea76f-8c05-4651-82d9-3f8d1167aabe/view?trk=public_profile_see-credential" target="_blank">Introduction to Cybersecurity - Cybrary (Jun 2023)</a></p>
+          <p><a href="https://app.cybrary.it/courses/api/certificate/CC-90f94d34-dab3-40a1-a08f-aebb887a13fe/view?trk=public_profile_see-credential" target="_blank">Linux Fundamentals for Security Practitioners - Cybrary (Jun 2023)</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section">
+      <div class="container">
+        <h2>Blog</h2>
+        <ul>
+          <li><a href="https://medium.com/@suvani_Basnet">My medium writeups</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <form>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Suvani Banset. All rights reserved.</p>
+  </footer>
+
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 50, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#d4af37" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.5 },
+        "size": { "value": 3 },
+        "line_linked": { "enable": true, "color": "#d4af37" },
+        "move": { "enable": true, "speed": 2 }
+      }
+    });
+  </script>
+</body>
+</html>
