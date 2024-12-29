@@ -1,185 +1,177 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Georgia', serif; 
-  background-color: #fdf6e3; 
-  color: #333333; 
-  overflow-x: hidden;
-}
-
-.container {
-  width: 85%;
-  margin: 0 auto;
-}
-
-h1, h2, h3 {
-  color: #d4af37; 
-  text-align: center;
-  font-family: 'Times New Roman', serif; 
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-nav ul li {
-  margin: 0 20px;
-}
-
-nav ul li a {
-  color: #d4af37; 
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-  color: #013220; 
-}
-
-
-.section {
-  padding: 50px 0;
-  background-color: #013220; 
-  color: #fdf6e3; 
-  border-radius: 10px;
-}
-
-.section h2 {
-  margin-bottom: 20px;
-}
-
-.project {
-  flex: 1;
-  min-width: 250px;
-  background-color: #fff; 
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  border: 2px solid #4b5320; 
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease;
-}
-
-.project h3 {
-  color: #5a3e2b; 
-  margin-bottom: 10px;
-}
-
-.project p {
-  color: #5a3e2b; 
-  font-size: 16px;
-}
-
-.project:hover {
-  transform: translateY(-10px); 
-  box-shadow: 0 0 15px #4b5320, 0 0 25px rgba(75, 83, 32, 0.7), 0 0 35px rgba(75, 83, 32, 0.5); 
-  background-color: #f8f5f0;
-}
-
-.project {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
-}
-
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: center;
-}
-
-input, textarea {
-  padding: 12px;
-  font-size: 16px;
-  border: 2px solid #d4af37; 
-  border-radius: 5px;
-  width: 100%;
-  max-width: 400px;
-  background-color: #fdf6e3; 
-  color: #013220; 
-}
-
-button {
-  padding: 12px;
-  background-color: #d4af37;
-  color: #fff;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #013220; 
-}
-
-
-#particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-footer {
-  background-color: #013220; 
-  color: #fdf6e3; 
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-}
-
-#about p, #blog p {
-  color: #5a3e2b; 
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-
-.github-link a {
-  font-family: 'Poppins', sans-serif; 
-  font-size: 18px;
-  color: #d7dcec;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: 2px solid #2a6b55;
-  border-radius: 5px;
-  background: linear-gradient(90deg, #376857, #537ba0);
-  transition: 0.3s ease-in-out;
-}
-
-.github-link a:hover {
-  color: #000;
-  background: #ffaaaa;
-  box-shadow: 0 0 15px #2b483e, 0 0 30px #314b43, 0 0 45px #336f5b;
-  transform: scale(1.1);
-}
-
-
-.github-link {
-  list-style: none;
-  display: inline-block;
-  margin: 10px;
-  box-shadow: 0 0 10px #1b312a;
-  animation: glow-animation 3s infinite alternate;
-}
-
-@keyframes glow-animation {
-  0% {
-      box-shadow: 0 0 10px #243730;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  100% {
-      box-shadow: 0 0 25px #192733;
+  
+  body {
+    font-family: 'Georgia', serif; 
+    background-color: #F1F6FB; /* Very light blue, similar to old money aesthetic */
+    color: #2E3B47; /* Darker, more refined color for text */
+    overflow-x: hidden;
   }
-}
+  
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    color: #2A4D63; /* Deep, refined blue */
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #2A4D63; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #254F6E; /* Slightly darker blue for hover */
+  }
+  
+  .section {
+    padding: 50px 0;
+    background-color: #254F6E; /* Elegant dark blue */
+    color: #F1F6FB; 
+    border-radius: 10px;
+  }
+  
+  .section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    flex: 1;
+    min-width: 250px;
+    background-color: #ffffff; 
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border: 2px solid #4A6E81; /* Slightly muted blue border */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease;
+  }
+  
+  .project h3 {
+    color: #3A5A6A; /* Muted blue for project headers */
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    color: #3A5A6A; 
+    font-size: 16px;
+  }
+  
+  .project:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 0 15px #2A4D63, 0 0 25px rgba(42, 77, 99, 0.7), 0 0 35px rgba(42, 77, 99, 0.5); 
+    background-color: #F0F4F9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  input, textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #2A4D63; 
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #F1F6FB; 
+    color: #254F6E; /* Subtle dark blue for text */
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #2A4D63;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #254F6E; 
+  }
+  
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  footer {
+    background-color: #2A4D63; 
+    color: #F1F6FB; 
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  #about p, #blog p {
+    color: #3A5A6A; 
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .github-link a {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    color: #D1D8E0;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #3A5A6A;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #254F6E, #3A5A6A);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .github-link a:hover {
+    color: #fff;
+    background: #2A4D63;
+    box-shadow: 0 0 15px #254F6E, 0 0 30px #2A4D63, 0 0 45px #3A5A6A;
+    transform: scale(1.1);
+  }
+  
+  .github-link {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 10px #3A5A6A;
+    animation: glow-animation 3s infinite alternate;
+  }
+  
+  @keyframes glow-animation {
+    0% {
+        box-shadow: 0 0 10px #3A5A6A;
+    }
+    100% {
+        box-shadow: 0 0 25px #254F6E;
+    }
+  }
+  
