@@ -15,14 +15,14 @@
 
     body {
       font-family: 'Georgia', serif;
-      background-color: #fdf6e3;
-      color: #333333;
+      background-color: #f4f4f4;  /* Light grey background */
+      color: #0a2a3d;  /* Old Money Blue */
       line-height: 1.6;
       overflow-x: hidden;
     }
 
     header {
-      background: #013220;
+      background: #003366;  /* Deep Blue */
       padding: 20px 0;
     }
 
@@ -39,7 +39,7 @@
     }
 
     nav ul li a {
-      color: #d4af37;
+      color: #d1f2ff;  /* Old Money Gold */
       text-decoration: none;
       font-size: 18px;
       font-weight: bold;
@@ -48,23 +48,23 @@
     }
 
     nav ul li a:hover {
-      color: #fdf6e3;
-      border-bottom: 2px solid #d4af37;
+      color: #f4f4f4;
+      border-bottom: 2px solid #003f91;
     }
 
     .section {
       padding: 60px 20px;
       text-align: center;
-      background: #fdf6e3;
+      background: #f4f4f4;  /* Light Grey for contrast */
       margin-bottom: 40px;
     }
 
     .section:nth-child(odd) {
-      background: #ffffff;
+      background: #e2e8f0;  /* Very light blue for alternating sections */
     }
 
     .section h2 {
-      color: #013220;
+      color: #003366;  /* Deep Blue */
       font-size: 32px;
       margin-bottom: 20px;
     }
@@ -83,7 +83,7 @@
 
     .project {
       background: #fff;
-      border: 1px solid #d4af37;
+      border: 1px solid #003366;  /* Deep Blue border */
       border-radius: 8px;
       padding: 20px;
       width: 300px;
@@ -93,10 +93,11 @@
     .project:hover {
       transform: translateY(-10px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      border-color: #00576c;  /* Gold border on hover */
     }
 
     .project h3 {
-      color: #013220;
+      color: #003366;  /* Deep Blue for project titles */
       margin-bottom: 10px;
     }
 
@@ -111,16 +112,16 @@
       padding: 15px;
       width: 90%;
       max-width: 400px;
-      border: 2px solid #d4af37;
+      border: 2px solid #003366;  /* Deep Blue border */
       border-radius: 8px;
       font-size: 16px;
-      background: #fdf6e3;
-      color: #013220;
+      background: #f4f4f4;
+      color: #003366;  /* Deep Blue text */
     }
 
     button {
       padding: 12px 20px;
-      background: #d4af37;
+      background: #006f87;  /* Gold button */
       color: #fff;
       font-size: 16px;
       border: none;
@@ -130,12 +131,12 @@
     }
 
     button:hover {
-      background: #013220;
+      background: #003366;  /* Dark Blue button hover */
     }
 
     footer {
-      background: #013220;
-      color: #fdf6e3;
+      background: #003366;
+      color: #f4f4f4;
       text-align: center;
       padding: 20px;
       font-size: 14px;
@@ -153,17 +154,17 @@
     .project:hover {
       transform: translateY(-10px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-      border-color: #013220;
+      border-color: #003366;
     }
 
     .certifications {
-      color: #5a3d1a;
+      color: #003366;  /* Dark Blue */
       font-size: 18px;
       margin-bottom: 15px;
     }
 
     .certifications a {
-      color: #5a3d1a;
+      color: #003366;
       text-decoration: none;
     }
 
@@ -173,6 +174,7 @@
 
     .certifications a:hover {
       text-decoration: underline;
+      color: #2d078a;  /* Gold on hover */
     }
   </style>
 </head>
@@ -241,6 +243,7 @@
         <h2>Blog</h2>
         <ul>
           <li><a href="https://medium.com/@suvani_Basnet">My medium writeups</a></li>
+          <li><a href="How to effectively manage third party vendor assement">Articles</a></li>
         </ul>
       </div>
     </section>
@@ -266,11 +269,11 @@
     particlesJS("particles-js", {
       "particles": {
         "number": { "value": 50, "density": { "enable": true, "value_area": 800 } },
-        "color": { "value": "#d4af37" },
+        "color": { "value": "#4B5320" },  /* Gold particles */
         "shape": { "type": "circle" },
         "opacity": { "value": 0.5 },
         "size": { "value": 3 },
-        "line_linked": { "enable": true, "color": "#d4af37" },
+        "line_linked": { "enable": true, "color": "#4B5320" },
         "move": { "enable": true, "speed": 2 }
       }
     });
